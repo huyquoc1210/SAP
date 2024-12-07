@@ -6,4 +6,4 @@ Khởi tạo 1 mô hình JSON. Dữ liệu cho mô hình chỉ chứa property `
 
 ## App.view.XML
 
-Để cập nhật thay đổi khi người dùng nhậpvafo , set thuộc tính `valueLiveUpdate` của control thành true
+Để cập nhật thay đổi khi người dùng nhập vào , set thuộc tính `valueLiveUpdate` của control thành true
