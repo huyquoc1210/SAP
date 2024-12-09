@@ -12,8 +12,8 @@ sap.ui :
 
 - `technology`: thuộc tính này chỉ định công nghệ được sử dụng cho ứng dụng; giá trị của nó là UI5
 - `devicesTypes`: thuộc tính này xác định các thiết bị hỗ trợ cho app. Nó là 1 object chứa 3 thuộc tính có giá trị là Boolean :Desktop, Tablet, Phone.Nếu tất cả là true thì nó sử dụng được trên 3 thiết bị
-- dependencies : dependencies của Component sẽ kèm theo setting theo sau:
+- `dependencies` : dependencies của Component sẽ kèm theo setting theo sau:
   - `minUI5Version`: chỉ định phiên bản của SAPUI5. Component của chúng tôi yêu cầu tối thiểu version 1.20
   - Setting lb
 - `rootView`: view gốc của ứng dụng (ví dụ "viewName": "ui5.walkthrough.view.App")
-- model: mô hình vòng đời của app. mỗi model được xác định bằng 1 key duy nhất và chuỗi rỗng
+- `model`: mô hình vòng đời của app. mỗi model được xác định bằng 1 key duy nhất và chuỗi rỗng

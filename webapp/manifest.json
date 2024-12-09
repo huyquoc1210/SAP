@@ -30,6 +30,7 @@
         "sap.m": {}
       }
     },
+
     "rootView": {
       "viewName": "ui5.walkthrough.view.App",
       "type": "XML",
@@ -43,6 +44,10 @@
           "supportedLocales": [""],
           "fallbackLocale": ""
         }
+      },
+      "invoice": {
+        "type": "sap.ui.model.json.JSONModel",
+        "uri": "model/localInvoices.json"
       }
     },
     "resources": {
