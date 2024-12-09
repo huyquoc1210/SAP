@@ -15,3 +15,5 @@ Cụ thể:
 ngc lại thêm padding vào trước của phần tử
 
 Tài liệu thảm khảo (https://ui5.sap.com/#/topic/777168ffe8324873973151dae2356d1c?q=sapUiSmallMarginEnd)
+
+Css Customer (https://ui5.sap.com/#/topic/ea08f53503da42c19afd342f4b0c9ec7)
