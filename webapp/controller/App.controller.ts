@@ -16,14 +16,13 @@ export default class AppController extends Controller {
       },
     };
     const dataModel = new JSONModel(data);
-    console.log(dataModel);
     this.getView()?.setModel(dataModel);
 
     // set i18n model on view
     const i18nModel = new ResourceModel({
       bundleName: "ui5.walkthrough.i18n.i18n",
     });
-    console.log(i18nModel);
+
     this.getView()?.setModel(i18nModel, "i18n");
   }
 
